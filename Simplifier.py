@@ -1,8 +1,10 @@
 import streamlit as st
 import openai
+import os 
+api_key= os.environ.get("API_KEY")
 
 # Configurar la clave de API de OpenAI
-openai.api_key = "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"  # Reemplaza con tu clave real
+openai.api_key = api_key  # Reemplaza con tu clave real
 
 # Función para generar la receta
 def generar_receta(ingredientes):
@@ -38,3 +40,4 @@ if st.button("Generar receta"):
         st.write(receta)
     else:
         st.warning("Por favor, ingresa algunos ingredientes.")
+
