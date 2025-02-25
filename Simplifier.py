@@ -4,7 +4,7 @@ import openai
 app = Flask(__name__)
 
 # Clave de API de OpenAI (asegúrate de usar tu propia clave)
-openai.api_key = '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'  # Reemplaza con tu clave de API de OpenAI
+openai.api_key = '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'  # Reemplaza con tu clave de API de OpenAI
 
 # Función para generar la receta usando OpenAI (modelo de chat)
 def generar_receta(ingredientes):
