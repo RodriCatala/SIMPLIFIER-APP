@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 # Configurar la clave de API de OpenAI
-openai.api_key = "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"  # Reemplaza con tu clave real
+openai.api_key = "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"  # Reemplaza con tu clave real
 
 # Función para generar la receta
 def generar_receta(ingredientes):
