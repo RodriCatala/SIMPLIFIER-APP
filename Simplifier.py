@@ -29,7 +29,7 @@ def generar_receta(ingredientes):
 # Interfaz con Streamlit
 st.title("Asistente de Cocina 🍽️")
 
-st.write("Ingresa los ingredientes disponibles y genera una receta.")
+st.write("Ingresa los ingredientes disponibles en tu cocina.")
 
 ingredientes = st.text_input("Ingredientes (ejemplo: huevo, pan, tomate):")
 
